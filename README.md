@@ -1,5 +1,7 @@
 # Institutional Research and Strategy
 
+Evidence-Based Teaching Strategies
+
 ## Data integration intelligent platform
 
 1. Design / Develop / Apply a Learning effectiveness analysis system (Data extraction, collection, storage, analysis).
