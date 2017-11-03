@@ -1,7 +1,13 @@
 # Institutionaal Research
 
-* Document Reading
-* Simple Crawler with Python
+Document Reading & Demo of a Simple Crawler with Python
+
+* Systems Analysis
+
+* Requirement Analysis
+
+* Requirement / Design Specification
+
 
 ## Topic
 
