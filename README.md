@@ -1,4 +1,4 @@
-# Institutionaal Research
+# Institutional Research
 
 Document Reading & Demo of a Simple Crawler with Python
 
