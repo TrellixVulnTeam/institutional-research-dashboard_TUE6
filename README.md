@@ -24,4 +24,4 @@ Evidence-Based Teaching Strategies
 
 ---
 
-This repository contains **Document Notes** and **Demo of a Simple Crawler with Python**.
+This repository contains **Document Notes**, **Web Application & Chart**, **Web Crawler** and **Analysis Engine**.
