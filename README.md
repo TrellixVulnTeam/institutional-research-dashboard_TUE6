@@ -26,9 +26,12 @@ Evidence-Based Teaching Strategies
 
 This repository contains
 
-| Files                                            |
-| ------------------------------------------------ |
-| Document Notes                                   |
+| Files                                    |
+| ---------------------------------------- |
+| Document Notes                           |
 | Web Application (Dashboard & Interactive Charts) |
-| Web Crawler                                      |
-| Analysis Engine                                  |
+| Web Crawler                              |
+| Analysis Engine                          |
+
+
+
