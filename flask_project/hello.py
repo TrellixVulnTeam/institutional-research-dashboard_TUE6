@@ -2,7 +2,6 @@ from flask import Flask
 
 app = Flask(__name__)
 
-
 # Routing
 
 @app.route('/')
@@ -29,12 +28,23 @@ def show_post(post_id):
 
 @app.route('/projects/')
 def projects():
+    # show the user profile for that user
     return 'The project page'
 
 @app.route('/about/')
 def about():
+    # show the post with the given id, the id is an integer
     return 'The about page'
 
+
+# HTTP method
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        do_the_login()
+    else:
+        show_the_login_form()
 
 
 if __name__ == '__main__':
