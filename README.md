@@ -5,13 +5,13 @@ Evidence-Based Teaching Strategies
 
 ## Data integration intelligent platform
 
-1. Design / Develop / Apply a Learning effectiveness analysis system (Data extraction, collection, storage, analysis).
+1. Design / Develop / Apply a learning effectiveness analysis system (Data extraction, collection, storage, analysis).
 
-2. Implement a digitization data of Learning process and learning effectiveness.
+2. Implement a digitization data of learning process and learning effectiveness.
 
-3. Combine Teaching counseling system with Learning effectiveness analysis.
+3. Combine teaching counseling system with learning effectiveness analysis.
 
-4. Combine Resource Planning and Promotion Systems with Learning effectiveness analysis.
+4. Combine resource planning and promotion systems with learning effectiveness analysis.
 
 
 ## Task topic
