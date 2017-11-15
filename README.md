@@ -16,13 +16,17 @@ Evidence-Based Teaching Strategies
 
 ## Task topic
 
+* Web Crawler
+* Data Warehouse
+* Web Application (Dashboard & Interactive Charts)
+* Analysis Engine
 * Systems Analysis
-
 * Requirement Analysis
-
 * Requirement / Design Specification
 
 ---
+
+This repository contains materials for demos, tutorials.
 
 ## Data Warehouse
 
@@ -32,16 +36,4 @@ Oracle Database 11g Enterprise Edition Release 11.2.0.4.0
 
 1. .NET Framework (Windows Server)
 2. Django (Linux Server)
-
----
-
-This repository contains materials for demos, tutorials.
-
-| Files                                    |
-| ---------------------------------------- |
-| Document Notes                           |
-| Web Application (Dashboard & Interactive Charts) |
-| Web Crawler                              |
-| Analysis Engine                          |
-
 
