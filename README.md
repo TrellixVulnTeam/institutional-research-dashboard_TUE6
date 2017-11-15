@@ -16,13 +16,13 @@ Evidence-Based Teaching Strategies
 
 ## Task topic
 
+* Systems Analysis
+* Requirement Analysis
+* Requirement / Design Specification
 * Web Crawler
 * Data Warehouse
 * Web Application (Dashboard & Interactive Charts)
 * Analysis Engine
-* Systems Analysis
-* Requirement Analysis
-* Requirement / Design Specification
 
 ---
 
