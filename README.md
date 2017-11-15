@@ -24,7 +24,18 @@ Evidence-Based Teaching Strategies
 
 ---
 
-This repository contains
+## Data Warehouse
+
+Oracle Database 11g Enterprise Edition Release 11.2.0.4.0
+
+## Web Application
+
+1. .NET Framework (Windows Server)
+2. Django (Linux Server)
+
+---
+
+This repository contains materials for demos, tutorials.
 
 | Files                                    |
 | ---------------------------------------- |
@@ -32,6 +43,5 @@ This repository contains
 | Web Application (Dashboard & Interactive Charts) |
 | Web Crawler                              |
 | Analysis Engine                          |
-
 
 
