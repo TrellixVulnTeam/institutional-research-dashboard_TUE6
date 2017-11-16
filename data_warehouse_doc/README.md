@@ -31,9 +31,16 @@ SELECT COUNT(table_name) FROM all_tables;
 
 [ALL_CONSTRAINTS](https://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_1047.htm#REFRN20047)
 
+`CONSTRAING_TYPE`
+* `P`: Primary key
+* `U`: Unique key
+* `C`: Check constraint on a table
+* `R`: Referential integrity
+
+
 ```sql
-SELECT * FROM all_tab_columns;
-SELECT * FROM all_constraints;
+SELECT * FROM all_tab_columns C WHERE C.OWNER  = "SCHEMA NAME";
+SELECT * FROM all_constraints C WHERE C.OWNER  = "SCHEMA NAME";
 ```
 
 [DUAL Table](https://docs.oracle.com/cd/E11882_01/server.112/e41084/queries009.htm#SQLRF20036)
