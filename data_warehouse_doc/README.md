@@ -6,7 +6,7 @@
 狀態 : 失敗 -測試失敗: Listener refused the connection with the following error:ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
 ```
 
-解決：SID 名稱不正確
+解決：SID 名稱不正確，向 DBA 詢問正確名稱
 
 
 ## SQL Reference
