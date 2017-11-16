@@ -8,7 +8,7 @@
 
 解決：SID 名稱不正確
 
-### Oracle SQL Reference
+### SQL Reference
 
 #### Get list of all tables
 
