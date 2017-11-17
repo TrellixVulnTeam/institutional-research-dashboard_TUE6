@@ -1,6 +1,8 @@
-## Oracle Database 11g Enterprise Edition
+## Oracle Database 11g Enterprise Edition 指南
 
-## SQL Developer
+## 資料庫管理工具 
+
+### SQL Developer
 
 ```
 狀態 : 失敗 -測試失敗: Listener refused the connection with the following error:ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
