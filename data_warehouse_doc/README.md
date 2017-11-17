@@ -9,15 +9,15 @@
 解決：SID 名稱不正確，向 DBA 詢問正確名稱
 
 
-## SQL Reference
+## SQL 指令
 
-### Database version
+### 資料庫版本
 
 ```sql
 SELECT * FROM v$version;
 ```
 
-### Table information
+### 資料庫內所有表格的資訊
 
 ```sql
 SELECT table_name FROM all_tables;
@@ -49,7 +49,7 @@ SELECT sysdate FROM DUAL;
 SELECT sys_context( 'userenv', 'current_schema' ) FROM DUAL;
 ```
 
-### All tables and describe tables
+### 特定 Schema 下所有表格及欄位型別、長度、精準位數、NULLABLE、預設值
 
 ```sql
 SELECT
@@ -70,7 +70,7 @@ WHERE
 ORDER BY C.TABLE_NAME, C.COLUMN_ID;
 ```
 
-### Index
+### 列出 Index
 
 [ALL_INDEXES](https://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_1109.htm#REFRN20088)
 
@@ -90,7 +90,7 @@ WHERE
 ORDER BY I.TABLE_NAME, I.INDEX_NAME, COLUMN_POSITION;
 ```
 
-#### Primary Key
+#### 列出 Primary Key
 
 [ALL_CONS_COLUMNS](https://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_1045.htm#REFRN20045)
 
