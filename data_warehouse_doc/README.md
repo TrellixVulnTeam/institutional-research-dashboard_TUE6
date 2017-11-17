@@ -90,7 +90,7 @@ WHERE
 ORDER BY I.TABLE_NAME, I.INDEX_NAME, COLUMN_POSITION;
 ```
 
-#### 列出 Primary Key
+### 列出 Primary Key
 
 [ALL_CONS_COLUMNS](https://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_1045.htm#REFRN20045)
 
@@ -113,7 +113,7 @@ ORDER BY C.TABLE_NAME, D.POSITION;
 
 
 
-## Reference
+## 參考資料
 
 http://blog.darkthread.net/post-2011-06-18-get-oracle-schema-info.aspx
 
