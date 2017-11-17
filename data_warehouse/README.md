@@ -191,7 +191,7 @@ $ pip install cs_Oracle
 ```python
 import cx_Oracle
 
-conn = cx_Oracle.connect("User Name", "Password", "IP/SID")
+conn = cx_Oracle.connect("<UserName>", "<Password>", "<Database IP>/<SID>")
 
 cursor = conn.cursor()
 
