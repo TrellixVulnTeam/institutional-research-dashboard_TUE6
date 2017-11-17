@@ -145,9 +145,20 @@ https://stackoverflow.com/questions/22298005/how-to-find-schema-name-in-oracle-w
 
 ## Python Client Cx_Oracle
 
+1. 確認版本
+
+* Python 3.6
+* Oracle Database 11g Release 2 (11.2)
+
 1. 安裝 cx_Oracle
 
+```shell
+$ pip install cs_Oracle
+```
+
 2. 安裝 Oracle Instant Client
+
+[Oracle Instant Client](http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html)
 
 3. 將 Oracle Instant Client
     * C:\Oracle\
@@ -174,9 +185,6 @@ https://stackoverflow.com/questions/22298005/how-to-find-schema-name-in-oracle-w
 
 4. 編輯完後以 TNSNAMES.ORA 命名，儲存至 C:\Oracle\network\admin
     * 將目錄位置加進環境變數
-
-
-
 
 ## 參考
 
