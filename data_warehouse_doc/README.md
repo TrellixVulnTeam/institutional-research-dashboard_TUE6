@@ -37,7 +37,6 @@ SELECT COUNT(table_name) FROM all_tables;
 * `C`: Check constraint on a table
 * `R`: Referential integrity
 
-
 ```sql
 SELECT * FROM all_tab_columns C WHERE C.OWNER  = "SCHEMA NAME";
 SELECT * FROM all_constraints C WHERE C.OWNER  = "SCHEMA NAME";
