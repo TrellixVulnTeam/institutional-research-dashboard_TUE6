@@ -173,7 +173,7 @@ https://stackoverflow.com/questions/22298005/how-to-find-schema-name-in-oracle-w
   * <service_name>: 資料庫全局 SID
 
 4. 編輯完後以 TNSNAMES.ORA 命名，儲存至 C:\Oracle\network\admin
-
+    * 將目錄位置加進環境變數
 
 
 
