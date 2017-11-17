@@ -21,6 +21,10 @@ SELECT * FROM v$version;
 
 ### 資料庫內所有表格的資訊
 
+`dba_tables`: 系統內所有的表格訊息，需有 DBA 權限。
+`all_tables`: 當前用戶具權限的表格訊息（包括你自己名下的表格及其他用戶授權給你的表格）。
+`user_tables`: 當前用戶名下擁有的表格訊息。
+
 ```sql
 SELECT table_name FROM all_tables;
 SELECT COUNT(table_name) FROM all_tables;
