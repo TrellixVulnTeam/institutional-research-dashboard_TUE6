@@ -133,9 +133,6 @@ ORDER BY C.TABLE_NAME, D.POSITION;
 
 
 
-
-
-
 ## 參考
 
 http://blog.darkthread.net/post-2011-06-18-get-oracle-schema-info.aspx
