@@ -50,7 +50,7 @@ SELECT sysdate FROM DUAL;
 SELECT sys_context( 'userenv', 'current_schema' ) FROM DUAL;
 ```
 
-### All tables and describe tables in a specific schema
+### All tables and describe tables
 
 ```sql
 SELECT
@@ -58,9 +58,10 @@ SELECT
   DATA_TYPE, DATA_LENGTH, DATA_PRECISION, DATA_DEFAULT, 
   NULLABLE, COMMENTS
 FROM
-  ALL_TAB_COLUMNS C 
-JOIN ALL_TABLES T ON 
-  C.OWNER = T.OWNER AND C.TABLE_NAME = T.TABLE_NAME
+  ALL_TAB_COLUMNS C JOIN ALL_TABLES T 
+ON 
+  C.OWNER = T.OWNER AND 
+  C.TABLE_NAME = T.TABLE_NAME
 LEFT JOIN ALL_COL_COMMENTS R ON
   C.OWNER = R.Owner AND 
   C.TABLE_NAME = R.TABLE_NAME AND 
@@ -71,6 +72,10 @@ ORDER BY C.TABLE_NAME, C.COLUMN_ID;
 ```
 
 ### Index
+
+[ALL_INDEXES](https://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_1109.htm#REFRN20088)
+
+[ALL_IND_COLUMNS](https://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_1103.htm#REFRN20084)
 
 ```sql
 SELECT 
@@ -88,6 +93,8 @@ ORDER BY I.TABLE_NAME, I.INDEX_NAME, COLUMN_POSITION;
 
 #### Primary Key
 
+[ALL_CONS_COLUMNS](https://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_1045.htm#REFRN20045)
+
 ```sql
 SELECT 
   C.OWNER, C.TABLE_NAME, D.POSITION, D.COLUMN_NAME  
@@ -97,7 +104,8 @@ ON
   C.OWNER = D.OWNER AND
   C.CONSTRAINT_NAME = D.CONSTRAINT_NAME
 WHERE
-  C.CONSTRAINT_TYPE = 'P' AND C.OWNER = "SCHEMA NAME"
+  C.CONSTRAINT_TYPE = 'P' AND 
+  C.OWNER = "SCHEMA NAME"
 ORDER BY C.TABLE_NAME, D.POSITION;
 ```
 
