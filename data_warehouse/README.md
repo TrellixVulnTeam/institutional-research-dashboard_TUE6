@@ -13,9 +13,7 @@
 
 ## SQL 指令
 
-
 [Documentation 11g Release 2 (11.2) Database Administration](https://docs.oracle.com/cd/E11882_01/nav/portal_4.htm)
-
 
 ### 資料庫版本
 
@@ -24,6 +22,8 @@ SELECT * FROM v$version;
 ```
 
 ### 資料庫內所有表格的資訊
+
+This part describes data dictionary tables and views.
 
 Oracle 三個表視圖
 * `dba_tables`: 系統內所有的表格訊息，需有 DBA 權限。
@@ -84,13 +84,14 @@ ORDER BY C.TABLE_NAME, C.COLUMN_ID;
 [ALL_COL_COMMENTS](https://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_1039.htm#REFRN20040)
 
 ```sql
-
-
-
+SELECT
+  *
+FROM
+  ALL_COL_COMMENTS C
+WHERE
+  C.TABLE_NAME = "TABLE NAME" AND
+  C.OWNER = "SCHEMA NAME";
 ```
-
-
-
 
 ### 列出 Index
 
