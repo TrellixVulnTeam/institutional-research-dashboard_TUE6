@@ -13,6 +13,10 @@
 
 ## SQL 指令
 
+
+[Documentation 11g Release 2 (11.2) Database Administration](https://docs.oracle.com/cd/E11882_01/nav/portal_4.htm)
+
+
 ### 資料庫版本
 
 ```sql
@@ -76,6 +80,17 @@ WHERE
   C.OWNER  = "SCHEMA NAME"
 ORDER BY C.TABLE_NAME, C.COLUMN_ID;
 ```
+
+[ALL_COL_COMMENTS](https://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_1039.htm#REFRN20040)
+
+```sql
+
+
+
+```
+
+
+
 
 ### 列出 Index
 
