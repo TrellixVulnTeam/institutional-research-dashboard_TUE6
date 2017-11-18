@@ -139,7 +139,9 @@ http://blog.darkthread.net/post-2011-06-18-get-oracle-schema-info.aspx
 
 https://stackoverflow.com/questions/22298005/how-to-find-schema-name-in-oracle-when-you-are-connected-in-sql-session-using
 
+
 ---
+
 
 ## Python Client Cx_Oracle
 
@@ -159,7 +161,7 @@ $ pip install cs_Oracle
 [Oracle Instant Client](http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html)
 
 3. 將 Oracle Instant Client
-    * C:\Oracle\
+    * 解壓縮後放置指定目錄（筆者放在 C:\Oracle\ ）
     * 將目錄位置加進環境變數
 
 3. 設定TNS 組態
@@ -181,7 +183,8 @@ $ pip install cs_Oracle
   * port: 預設 1521
   * service_name: 資料庫全局 SID
 
-4. 編輯完後以 TNSNAMES.ORA 命名，儲存至 C:\Oracle\network\admin
+4. 編輯完後以 TNSNAMES.ORA 命名
+    * 儲存至指定目錄（筆者放在 C:\Oracle\network\admin ）
     * 將目錄位置加進環境變數
 
 5. 測試連接
