@@ -35,5 +35,5 @@ Oracle Database 11g Enterprise Edition Release 11.2.0.4.0
 ## Web Application
 
 1. .NET Framework (Windows Server)
-2. Django (Linux Server)
+2. Django/Flask (Linux Server)
 
