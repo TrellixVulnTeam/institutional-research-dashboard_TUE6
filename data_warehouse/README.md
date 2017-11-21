@@ -53,6 +53,12 @@ SELECT * FROM all_tab_columns C WHERE C.OWNER  = "SCHEMA NAME";
 SELECT * FROM all_constraints C WHERE C.OWNER  = "SCHEMA NAME";
 ```
 
+[ALL_VIEWS](https://docs.oracle.com/cd/E11882_01/server.112/e40402/statviews_2133.htm#REFRN20305)
+
+```sql
+SELECT * FROM ALL_VIEWS;
+```
+
 [DUAL Table](https://docs.oracle.com/cd/E11882_01/server.112/e41084/queries009.htm#SQLRF20036)
 
 ```sql
