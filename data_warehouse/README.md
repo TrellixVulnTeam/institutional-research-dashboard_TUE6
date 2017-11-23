@@ -230,7 +230,7 @@ cursor = conn.cursor()
 
 cursor.execute("SELECT * FROM test_table")
 
-for ros in cursor:
+for row in cursor:
     print(row)
 ```
 
