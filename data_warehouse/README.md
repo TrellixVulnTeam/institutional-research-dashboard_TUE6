@@ -229,6 +229,9 @@ conn = cx_Oracle.connect("<UserName>", "<Password>", "<Database IP>/<SID>")
 cursor = conn.cursor()
 
 cursor.execute("SELECT * FROM test_table")
+
+for ros in cursor:
+    print(row)
 ```
 
 
