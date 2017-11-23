@@ -137,6 +137,14 @@ WHERE
 ORDER BY C.TABLE_NAME, D.POSITION;
 ```
 
+### 查詢表格上次修改資訊
+
+[ALL_TAB_MODIFICATIONS](https://docs.oracle.com/cloud/latest/db112/REFRN/statviews_2107.htm#REFRN20280)
+
+```sql
+SELECT * FROM ALL_TAB_MODIFICATIONS WHERE TABLE_OWNER = "SCHEMA NAME";
+```
+
 ### DISTINCT
 
 查詢表格內某特定欄位內不重複的值
