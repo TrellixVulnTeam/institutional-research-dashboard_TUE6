@@ -1,7 +1,5 @@
 ### How to run the django application.
 
-http://flask.pocoo.org/docs/0.12/
-
 ```shell
 $ . venv/bin/activate
 ```
