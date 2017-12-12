@@ -2,6 +2,7 @@
 
 Evidence-Based Teaching Strategies
 
+This repository contains materials for demos, tutorials.
 
 ## Data integration intelligent platform
 
@@ -13,7 +14,6 @@ Evidence-Based Teaching Strategies
 
 4. Combine resource planning and promotion systems with learning effectiveness analysis.
 
-
 ## Task topic
 
 * Systems Analysis
@@ -23,17 +23,3 @@ Evidence-Based Teaching Strategies
 * Data Warehouse
 * Web Application (Dashboard & Interactive Charts)
 * Analysis Engine
-
----
-
-This repository contains materials for demos, tutorials.
-
-## Data Warehouse
-
-Oracle Database 11g Enterprise Edition Release 11.2.0.4.0
-
-## Web Application
-
-1. .NET Framework (Windows Server)
-2. Django/Flask (Linux Server)
-
